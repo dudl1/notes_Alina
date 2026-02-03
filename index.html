@@ -14,35 +14,35 @@
 
 		<meta name="theme-color" content="#4f46e5">
 		
-		<link rel="modulepreload" href="/_app/immutable/entry/start.lxJ0RdKR.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/DLWYdTdn.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/DNtSXVTb.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/CWtJTJW8.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.Bq6qYLFm.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/K5SX8SLA.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/DmGirFel.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/DSy_hukL.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DSfv77-E.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/C3-aIwHM.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DNtSXVTb.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CWtJTJW8.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.Ba4r83-u.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/K5SX8SLA.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DmGirFel.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DSy_hukL.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_g8zqyi = {
-						base: ""
+					__sveltekit_1h0uacb = {
+						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/_app/immutable/entry/start.lxJ0RdKR.js"),
-						import("/_app/immutable/entry/app.Bq6qYLFm.js")
+						import("./_app/immutable/entry/start.DSfv77-E.js"),
+						import("./_app/immutable/entry/app.Ba4r83-u.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
 
 					if ('serviceWorker' in navigator) {
 						addEventListener('load', function () {
-							navigator.serviceWorker.register('/service-worker.js');
+							navigator.serviceWorker.register('./service-worker.js');
 						});
 					}
 				}
